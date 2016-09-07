@@ -12,7 +12,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src/bower_components"
   ],
   "overrides": {
     "bulma": {
@@ -30,5 +31,9 @@
     "angular": "^1.5.8",
     "bulma": "^0.1.2",
     "font-awesome": "^4.6.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "bardjs": "^0.1.8"
   }
 }
